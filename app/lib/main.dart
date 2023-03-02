@@ -3,6 +3,6 @@ import 'package:dw9_delivery_app/app/core/config/env/env.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
-  await Env.i.load();
+  await Env.instance.load();
   runApp(const App());
 }
